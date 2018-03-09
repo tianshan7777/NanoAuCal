@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tianshan.com.nanoparticalcalculator.MainMenuActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/concentration_cal"
+        android:id="@+id/concentration_cal"
+        android:onClick="onConcentrationCal"
+        android:background="#FFD700"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diameter_cal"
+        android:id="@+id/diameter_cal"
+        android:onClick="onDiameterCal"
+        android:background="#FFD700"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/concentration_cal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reference"
+        android:id="@+id/reference"
+        android:onClick="onSupportingInfo"
+        android:background="#FFD700"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/diameter_cal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_info"
+        android:id="@+id/app_info"
+        android:onClick="onAbout"
+        android:background="#FFD700"
+        android:layout_below="@+id/reference"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="77dp" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">计算粒子摩尔浓度 (纳摩/升)</string>
+    <string name="diameter_cal">计算金纳米颗粒直径 (纳米)</string>
+    <string name="reference">补充资料</string>
+    <string name="app_info">关于此应用</string>
+    <string name="alert_title">输入错误</string>
+    //concentration calculate
+    <string name="con_input">请输入金纳米颗粒的直径: </string>
+    <string name="con_note">注意: 输入的金纳米颗粒直径应介于2纳米与100纳米之间</string>
+    <string name="calculate">计算</string>
+    <string name="con_output">粒子摩尔浓度:   (纳摩/升)</string>
+    <string name="con_alert">请检查: \n1. 输入的直径应介于2纳米与100纳米之间. \n 2.输入直径的单位应为纳米.</string>
+    <string name="opticalDensity">请输入斤大米颗粒在450纳米处的光密度:  </string>
+    <string name="mass_cal">金纳米颗粒的质量浓度: (毫克/毫升) </string>
+    <string name="goldCon_cal">金的摩尔浓度: (纳摩)  </string>
+    <string name="calAgain">重新计算</string>
+    //diameter calculate
+    <string name="dia_input">请输入金纳米颗粒表面等离子共振光谱峰值: \n注意: 此数值应大于512纳米 </string>
+    <string name="dia_alert">请输入你的数据.</string>
+    //small diameter calculation
+    <string name="smallDiaCal">为了得到更准确的结果，请输入金纳米在表面等离子共振峰的吸收值与在450纳米处的吸收值的比率:</string>
+    //about this App
+    <string name="about">此应用是由伦敦大学学院的Nguyen T.K Thanh教授设计，希望以此来帮助研究员跟使用者在基于紫外－红外光谱数据上，利用它更方便的计算金纳米颗粒的浓度与大小</string>
+    <string name="link">补充资料</string>
+    <string name="personalWeb">Nguyen T.K. Thanh 教授的主页链接</string>
+    <string name="paper">相关文献</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">Calculate Molar Particle Concentration(nM/L)</string>
+    <string name="diameter_cal">Calculate Diameter of Gold Nano Particles(GNPs) (nm)</string>
+    <string name="reference">Supporting Information</string>
+    <string name="app_info">About this Application</string>
+    <string name="alert_title">Input Error</string>
+    //concentration calculate
+    <string name="con_input">Please enter the diameter of GNPs:</string>
+    <string name="con_note">Note: the diameter should be between 2 nm and 100 nm</string>
+    <string name="calculate">Calculate</string>
+    <string name="con_output">The molar particle concentration:    (nM/L)</string>
+    <string name="con_alert">Please check: \n1. The input diameter should be between 2nm and 100nm. \n 2.The unit of input diameter should be in nm.</string>
+    <string name="opticalDensity">Please enter the optical density at 450 nm of UV-visible spectrum of GNPs: </string>
+    <string name="mass_cal">The mass of GNPs: (mg/ml)</string>
+    <string name="goldCon_cal">The molar concentration of gold per litre:  (mM)</string>
+    <string name="calAgain">Calculate Again</string>
+    //diameter calculate
+    <string name="dia_input">Please enter the surface plasma resonance: \nNote: the value should be greater than 512 nm</string>
+    <string name="dia_alert">Please enter your data!</string>
+    //small diameter calculation
+    <string name="smallDiaCal">The diameter calculated is less than 35 nm. \nPlease enter the the Ratio of the absorbance of GNPs at the surface plasma resonance peak to the absorbance at 450 nm: </string>
+    //about this App
+    <string name="about">This app is designed by Professor Nguyen T. K. Thanh at University College London to help researchers and users to easily calculate concentration and size of gold nano particles simply based on their UV-VS spectrum.</string>
+    //useful links
+    <string name="personalWeb">Link to Professor Nguyen T. K. Thanh website</string>
+    <string name="paper">Related Papers</string>
+    <string name="link">Supporting information</string>
+</resources>

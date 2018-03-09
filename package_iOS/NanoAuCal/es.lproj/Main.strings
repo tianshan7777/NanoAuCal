@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Please enter the surface plasmon resonance peak of the gold nanoparticle spectrum: "; ObjectID = "1h7-h5-9i7"; */
+"1h7-h5-9i7.text" = "Por favor introduzca la resonancia del plasma de superficie del espectro de las nano-partículas de oro: ";
+
+/* Class = "UIButton"; normalTitle = "Calculate Again"; ObjectID = "2V1-pv-nnj"; */
+"2V1-pv-nnj.normalTitle" = "calcular nuevo";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "5Sc-B8-yG0"; */
+"5Sc-B8-yG0.normalTitle" = "Calcular";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "9wE-vt-g2Y"; */
+"9wE-vt-g2Y.normalTitle" = "Calcular";
+
+/* Class = "UITabBarItem"; title = "Supporting Info"; ObjectID = "Aqm-Zo-l9q"; */
+"Aqm-Zo-l9q.title" = "Supporting Info";
+
+/* Class = "UINavigationItem"; title = "Diameter"; ObjectID = "CfB-wA-IwT"; */
+"CfB-wA-IwT.title" = "Diámetro";
+
+/* Class = "UINavigationItem"; title = "Links"; ObjectID = "Fg8-ib-KEm"; */
+"Fg8-ib-KEm.title" = "Supporting Info";
+
+/* Class = "UILabel"; text = "Please enter the optical density at 450 nm of UV-visible spectrum of GNPs:"; ObjectID = "GmP-tD-gWC"; */
+"GmP-tD-gWC.text" = "Please enter the optical density at 450 nm of UV-visible spectrum of GNPs:";
+
+/* Class = "UIButton"; normalTitle = "Calculate Again"; ObjectID = "H1H-aD-5YH"; */
+"H1H-aD-5YH.normalTitle" = "calcular nuevo";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "Keu-K6-lVc"; */
+"Keu-K6-lVc.title" = "Acerca de";
+
+/* Class = "UIButton"; normalTitle = "Link to Professor Nguyen \nT.K. Thanh's web page"; ObjectID = "L72-KV-MOu"; */
+"L72-KV-MOu.normalTitle" = "Enlace al sitio web del\n Profesor Nguyen T. K. Thanh";
+
+/* Class = "UILabel"; text = "Please enter the diameter of GNPs: "; ObjectID = "NV4-uF-oMy"; */
+"NV4-uF-oMy.text" = "Por favor, introduzca el diámetro de las nano-partículas de oro: ";
+
+/* Class = "UITabBarItem"; title = "Calculator"; ObjectID = "Ndk-Uf-qIJ"; */
+"Ndk-Uf-qIJ.title" = "Calculadora";
+
+/* Class = "UINavigationItem"; title = "Calculator"; ObjectID = "Ocj-Ff-X9G"; */
+"Ocj-Ff-X9G.title" = "Calculadora";
+
+/* Class = "UILabel"; text = "Note: the value should be greater than 512 nm"; ObjectID = "RQf-r3-U6z"; */
+"RQf-r3-U6z.text" = "Nota: el valor debe ser mayor de 512 nm";
+
+/* Class = "UIViewController"; title = "Diameter"; ObjectID = "U3k-3U-ZSF"; */
+"U3k-3U-ZSF.title" = "Diámetro";
+
+/* Class = "UIButton"; normalTitle = "Calculate Diameter of Gold \nNano Partiles(GNPs)(nm)"; ObjectID = "XKq-XP-weQ"; */
+"XKq-XP-weQ.normalTitle" = "Calculeel diámetro de las nano-partículas de oro en nm";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "Y4A-5A-J9C"; */
+"Y4A-5A-J9C.title" = "Acerca de";
+
+/* Class = "UINavigationItem"; title = "Concentration"; ObjectID = "eRU-qO-P3j"; */
+"eRU-qO-P3j.title" = "Concentración";
+
+/* Class = "UILabel"; text = "Note: the diameter should be between 2 nm and 100 nm"; ObjectID = "fHc-rY-2hm"; */
+"fHc-rY-2hm.text" = "Nota: el diámetro introducido debe estar entre 2 y 100 nm";
+
+/* Class = "UIButton"; normalTitle = "Calculate Molar Particle\nConcentration(nM)"; ObjectID = "fQ8-EE-ivS"; */
+"fQ8-EE-ivS.normalTitle" = "Calcular la Molaridad  (nM)";
+
+/* Class = "UILabel"; text = "For a more accurate result enter the ratio of the absorbance of GNPs at the surface plasma resonance peak to the absorbance at 450 nm:"; ObjectID = "g1X-cR-5Ef"; */
+"g1X-cR-5Ef.text" = "Para obtener un resultado más preciso, por favor introduzca el ratio entre la absorbancia de nano-partículas de oro en el pico de resonancia de superficie y la absorbancia a 450 nm:";
+
+/* Class = "UIButton"; normalTitle = "Related Papers"; ObjectID = "lxr-OR-Dub"; */
+"lxr-OR-Dub.normalTitle" = "Related Papers";
+
+/* Class = "UIButton"; normalTitle = "Supporting Information "; ObjectID = "toO-mh-Bt2"; */
+"toO-mh-Bt2.normalTitle" = "Información adicional";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "vb4-Ne-Fss"; */
+"vb4-Ne-Fss.normalTitle" = "Calcular";

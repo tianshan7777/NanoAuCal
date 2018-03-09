@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Please enter the surface plasmon resonance peak of the gold nanoparticle spectrum: "; ObjectID = "1h7-h5-9i7"; */
+"1h7-h5-9i7.text" = "请输入金纳米颗粒表面等离子共振光谱峰值：";
+
+/* Class = "UIButton"; normalTitle = "Calculate Again"; ObjectID = "2V1-pv-nnj"; */
+"2V1-pv-nnj.normalTitle" = "重新计算"";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "5Sc-B8-yG0"; */
+"5Sc-B8-yG0.normalTitle" = "计算";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "9wE-vt-g2Y"; */
+"9wE-vt-g2Y.normalTitle" = "计算";
+
+/* Class = "UITabBarItem"; title = "Supporting Info"; ObjectID = "Aqm-Zo-l9q"; */
+"Aqm-Zo-l9q.title" = "补充资料";
+
+/* Class = "UINavigationItem"; title = "Diameter"; ObjectID = "CfB-wA-IwT"; */
+"CfB-wA-IwT.title" = "直径";
+
+/* Class = "UINavigationItem"; title = "Links"; ObjectID = "Fg8-ib-KEm"; */
+"Fg8-ib-KEm.title" = "链接";
+
+/* Class = "UILabel"; text = "Please enter the optical density at 450 nm of UV-visible spectrum of GNPs:"; ObjectID = "GmP-tD-gWC"; */
+"GmP-tD-gWC.text" = "请输入金纳米颗粒在450纳米处的光密度：";
+
+/* Class = "UIButton"; normalTitle = "Calculate Again"; ObjectID = "H1H-aD-5YH"; */
+"H1H-aD-5YH.normalTitle" = "重新计算";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "Keu-K6-lVc"; */
+"Keu-K6-lVc.title" = "相关";
+
+/* Class = "UIButton"; normalTitle = "Link to Professor Nguyen \nT.K. Thanh's web page"; ObjectID = "L72-KV-MOu"; */
+"L72-KV-MOu.normalTitle" = "Nguyen T.K Thanh教授\n的主页链接";
+
+/* Class = "UILabel"; text = "Please enter the diameter of GNPs: "; ObjectID = "NV4-uF-oMy"; */
+"NV4-uF-oMy.text" = "请输入金纳米颗粒的直径：";
+
+/* Class = "UITabBarItem"; title = "Calculator"; ObjectID = "Ndk-Uf-qIJ"; */
+"Ndk-Uf-qIJ.title" = "计算器";
+
+/* Class = "UINavigationItem"; title = "Calculator"; ObjectID = "Ocj-Ff-X9G"; */
+"Ocj-Ff-X9G.title" = "计算器";
+
+/* Class = "UILabel"; text = "Note: the value should be greater than 512 nm"; ObjectID = "RQf-r3-U6z"; */
+"RQf-r3-U6z.text" = "注意：此数值应大于512纳米";
+
+/* Class = "UIViewController"; title = "Diameter"; ObjectID = "U3k-3U-ZSF"; */
+"U3k-3U-ZSF.title" = "直径";
+
+/* Class = "UIButton"; normalTitle = "Calculate Diameter of Gold \nNano Partiles(GNPs)(nm)"; ObjectID = "XKq-XP-weQ"; */
+"XKq-XP-weQ.normalTitle" = "计算金纳米颗粒直径\n（GNPs）（纳米）";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "Y4A-5A-J9C"; */
+"Y4A-5A-J9C.title" = "相关";
+
+/* Class = "UINavigationItem"; title = "Concentration"; ObjectID = "eRU-qO-P3j"; */
+"eRU-qO-P3j.title" = "浓度";
+
+/* Class = "UILabel"; text = "Note: the diameter should be between 2 nm and 100 nm"; ObjectID = "fHc-rY-2hm"; */
+"fHc-rY-2hm.text" = "注意：直径的数值应介于2纳米与100纳米之间。";
+
+/* Class = "UIButton"; normalTitle = "Calculate Molar Particle\nConcentration(nM)"; ObjectID = "fQ8-EE-ivS"; */
+"fQ8-EE-ivS.normalTitle" = "计算粒子摩尔浓度\n（纳摩）";
+
+/* Class = "UILabel"; text = "For a more accurate result enter the ratio of the absorbance of GNPs at the surface plasma resonance peak to the absorbance at 450 nm:"; ObjectID = "g1X-cR-5Ef"; */
+"g1X-cR-5Ef.text" = "为了得到更准确的结果，请输入金纳米在表面等离子共振峰的吸收值与在450纳米处的吸收值的比率：";
+
+/* Class = "UIButton"; normalTitle = "Related Papers"; ObjectID = "lxr-OR-Dub"; */
+"lxr-OR-Dub.normalTitle" = "相关文献";
+
+/* Class = "UIButton"; normalTitle = "Supporting Information "; ObjectID = "toO-mh-Bt2"; */
+"toO-mh-Bt2.normalTitle" = "补充材料 ";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "vb4-Ne-Fss"; */
+"vb4-Ne-Fss.normalTitle" = "计算";

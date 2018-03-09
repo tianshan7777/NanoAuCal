@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">حساب التركيز المولاري للجسيمات (مول نانوني / لتر)</string>
+    <string name="diameter_cal">حساب قطر جسيم الذهب النانوني (نانومتر)</string>
+    <string name="reference">معلومات مساعدة</string>
+    <string name="app_info">تعليمات</string>
+    <string name="alert_title">خطأ في المدخلات</string>
+    //concentration calculate
+    <string name="con_input">من فضلك ادخل قطر جسيم الذهب النانوي</string>
+    <string name="con_note">ملاحظة: القطر لابد و أن يكون مابين 2 نانومتر و 100 نانومتر</string>
+    <string name="calculate">حساب</string>
+    <string name="con_output">التركيز المولاري للجسيمات (مول نانوني / لتر)</string>
+    <string name="con_alert">من فضلك تأكد أنه:\n1.قيمة القطر المدخلة  بين 2 نانو متر و 100 نانو متر
+2.وحدة قياس القطر بالنانو نتر</string>
+    <string name="opticalDensity">من فضلك أدخل قيمة الكثافة الضوئية عند الطول الموجي 450 نانومتر الخاص بمطياف الفوق بنفسجي-المرئي للذهب</string>
+    <string name="mass_cal">كتلة جسيمات الذهب النانويجرام / مليلتر</string>
+    <string name="goldCon_cal"> مولالتركيز المولاري لجسيمات الذهب النانوي / لتر</string>
+    <string name="calAgain">حساب الكتلة</string>
+    //diameter calculate
+    <string name="dia_input">من فضلك ادخل رنين بلازمون السطح الخاص بجسيم اللذهب النانوي\nملاحظة: القيمة لابد أن تكون أكبر من 512 نانومتر</string>
+    <string name="dia_alert">خطأ في المدخلات</string>
+    //small diameter calculation
+    <string name="smallDiaCal">قيمة القطر المحسوبة أقل من 35 نانومترمن فضلك ادخل النسبة مابين امتصاص جسيم الذهب النانوي قمة رنين بلازمون السطح إلى الامتصاص 450عند  نانو متر.</string>
+    //about this App
+    <string name="about">هذا التطبيق مصمم بواسطة أ.د ناجين ت. ك. تانه أستاذ بكلية جامعة لندن لمساعدة الباحثين و المستخدمين لتقدير تركيز و حجم جسيمات الذهب النانوي ببساطة اعتمادا على الطيف الفوق بنفسجي و المرئي</string>
+    //useful links
+    <string name="personalWeb">أستاذ نجوين ثانه موقع ت ك.</string>
+    <string name="paper">أدب</string>
+    <string name="link">تعليمات</string>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">Υπολογίστε τη μοριακή συγκέντρωση σωματιδίων (nM/L)</string>
+    <string name="diameter_cal">Υπολογίστε τη διάμετρο των νανοσωματιδίων Χρυσού (GNPs) (nm)</string>
+    <string name="reference">Επιπρόσθετες πληροφορίες</string>
+    <string name="app_info">Σχετικά με την εφαρμογή</string>
+    <string name="alert_title">Input Error</string>
+    //concentration calculate
+    <string name="con_input">Παρακαλώ εισάγετε τη διάμετρο των GNPs:</string>
+    <string name="con_note">Σημείωση: Η διάμετρος πρέπει να είναι μεταξύ 2 nm και 100 nm</string>
+    <string name="calculate">Υπολογίστε</string>
+    <string name="con_output">Μοριακή συγκέντρωση σωματιδίων (nmol/L):</string>
+    <string name="con_alert">Παρακαλώ ελέγξτε:\n1. 1.	Η διάμετρος πρέπει να είναι μεταξύ 2 nm και 100 nm. \n 2.1.	H τιμή της διαμέτρου πρέπει να είναι σε nm.</string>
+    <string name="opticalDensity">Παρακαλώ εισάγετε την οπτική πυκνότητα των GNPs στα 450 nm του φάσματος υπεριώδους-ορατού: </string>
+    <string name="mass_cal">Μάζα GNPs (mg/mL):</string>
+    <string name="goldCon_cal">Μοριακή Συγκέντρωση Χρυσού ανά λίτρο (Μ):</string>
+    <string name="calAgain">Υπολογίστε ξανά</string>
+    //diameter calculate
+    <string name="dia_input">Παρακαλώ εισάγετε το μήκος κύματος του Eπιφανειακού Πλασμονικού Συντονισμού του φάσματος των νανοσωματιδίων Χρυσού: \nΣημείωση: Η τιμή θα πρέπει να είναι μεγαλύτερη από 512nm</string>
+    <string name="dia_alert">Σφάλμα</string>
+    //small diameter calculation
+    <string name="smallDiaCal">Παρακαλώ εισάγετε το λόγο απορρόφησης της κορυφής Επιφανειακού Πλασμονικού Συντονισμού των GNPs προς την απορρόφηση στα 450nm. </string>
+    //about this App
+    <string name="about">Η συγκεκριμένη εφαρμογή σχεδιάστηκε από την  Καθηγήτρια Nguyen T. K. Thanh του University College London, και απευθύνεται σε ερευνητές και χρήστες με σκοπό τον εύκολο υπολογισμό της συγκέντρωσης και του μεγέθους των νανοσωματιδίων Χρυσού, βασιζόμενη απλά στο φάσμα υπεριώδους-ορατού των σωματιδίων.</string>
+    //useful links
+    <string name="personalWeb">Ιστοσελίδα  Καθηγήτριας Nguyen T. K. Thanh</string>
+    <string name="paper">Σχετικές Δημοσιεύσεις</string>
+    <string name="link">Επιπρόσθετες Πληροφορίες</string>
+</resources>

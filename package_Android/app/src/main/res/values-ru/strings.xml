@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">Посчитать Моляльную Концентрацию (nM/L)</string>
+    <string name="diameter_cal">Посчитать диаметр золотых наночастиц (nm)</string>
+    <string name="reference">Вспомогательная информация</string>
+    <string name="app_info">A propos de cette application</string>
+    <string name="alert_title">ошибка ввода</string>
+    //concentration calculate
+    <string name="con_input">Введите диаметр наночастиц золота: </string>
+    <string name="con_note">Внимание: диаметр должен быть между 2 nm и 100 nm</string>
+    <string name="calculate">вычислять</string>
+    <string name="con_output">Моляльная концентрация:    (nM/L)</string>
+    <string name="con_alert">Please check: \n1. The input diameter should be between 2nm and 100nm. \n 2.The unit of input diameter should be in nm.</string>
+    <string name="opticalDensity">Введите оптическую плотность на 450 nm УФ-видимого спектра наночастиц золота:</string>
+    <string name="mass_cal">Масса наночастиц золота: (mg/ml)</string>
+    <string name="goldCon_cal">Молярная концентрация золота на литр:  (mM)</string>
+    <string name="calAgain">вычислить снова</string>
+    //diameter calculate
+    <string name="dia_input">Введите поверхностный плазменный резонанс (SPR) спектра золотых наночастиц:  \nВнимание: значение должно быть больше 512 nm.</string>
+    <string name="dia_alert">ошибка ввода</string>
+    //small diameter calculation
+    <string name="smallDiaCal">Полученный диаметр меньше 35 nm \nДля более точного результата введите соотношение полгощения золотных наночастиц в момент пика поверхностного плазменного резонанса и поглощения при 450 nm: </string>
+    //about this App
+    <string name="about">Данный вебсайт создан Профессором Nguyen T. K. Thanh из University College London для того, чтобы помочь исследователям и остальным пользователям легко вычислять концентрацию и размер золотых наночастиц, основываясь на спектре их видимого УФ излучения.</string>
+    //useful links
+    <string name="personalWeb">Ссылка на Professor Nguyen T. K. Thanh вебсайт</string>
+    <string name="paper">Бумага</string>
+    <string name="link">Дополнительная информация</string>
+</resources>

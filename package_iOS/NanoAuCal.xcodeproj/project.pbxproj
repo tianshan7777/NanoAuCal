@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36D92A71CC8D8CE0063EC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92A61CC8D8CE0063EC2D /* AppDelegate.swift */; };
+		D36D92A91CC8D8CE0063EC2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92A81CC8D8CE0063EC2D /* ViewController.swift */; };
+		D36D92AC1CC8D8CE0063EC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D92AA1CC8D8CE0063EC2D /* Main.storyboard */; };
+		D36D92AF1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D36D92AD1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodeld */; };
+		D36D92B11CC8D8CE0063EC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36D92B01CC8D8CE0063EC2D /* Assets.xcassets */; };
+		D36D92B41CC8D8CE0063EC2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36D92B21CC8D8CE0063EC2D /* LaunchScreen.storyboard */; };
+		D36D92BF1CC8D8CE0063EC2D /* NanoAuCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92BE1CC8D8CE0063EC2D /* NanoAuCalTests.swift */; };
+		D36D92CA1CC8D8CE0063EC2D /* NanoAuCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92C91CC8D8CE0063EC2D /* NanoAuCalUITests.swift */; };
+		D36D92D81CC8E6420063EC2D /* About.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D36D92D71CC8E6420063EC2D /* About.pdf */; };
+		D36D92DE1CC8EC870063EC2D /* ConcentrationCalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92DD1CC8EC870063EC2D /* ConcentrationCalModel.swift */; };
+		D36D92E01CC8ECA00063EC2D /* ConcentrationCalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92DF1CC8ECA00063EC2D /* ConcentrationCalViewController.swift */; };
+		D36D92E21CC8EE6A0063EC2D /* CAGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92E11CC8EE6A0063EC2D /* CAGradient.swift */; };
+		D36D92E51CC8F0010063EC2D /* CalMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92E41CC8F0010063EC2D /* CalMenuViewController.swift */; };
+		D36D92E71CC8F0310063EC2D /* DiameterCalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92E61CC8F0310063EC2D /* DiameterCalViewController.swift */; };
+		D36D92E91CC8F3400063EC2D /* DiameterCalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92E81CC8F3400063EC2D /* DiameterCalModel.swift */; };
+		D36D92EC1CC8F4EE0063EC2D /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92EB1CC8F4EE0063EC2D /* LinksViewController.swift */; };
+		D36D92EE1CC8F6A40063EC2D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D92ED1CC8F6A40063EC2D /* AboutViewController.swift */; };
+		D3EA3BD51CC901F500AA6A5B /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EA3BD41CC901F500AA6A5B /* splash.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D36D92BB1CC8D8CE0063EC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D929B1CC8D8CE0063EC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D92A21CC8D8CE0063EC2D;
+			remoteInfo = NanoAuCal;
+		};
+		D36D92C61CC8D8CE0063EC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D36D929B1CC8D8CE0063EC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D36D92A21CC8D8CE0063EC2D;
+			remoteInfo = NanoAuCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D36D92A31CC8D8CE0063EC2D /* NanoAuCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanoAuCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D92A61CC8D8CE0063EC2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36D92A81CC8D8CE0063EC2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36D92AB1CC8D8CE0063EC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36D92AE1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NanoAuCal.xcdatamodel; sourceTree = "<group>"; };
+		D36D92B01CC8D8CE0063EC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36D92B31CC8D8CE0063EC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D36D92B51CC8D8CE0063EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36D92BA1CC8D8CE0063EC2D /* NanoAuCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoAuCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D92BE1CC8D8CE0063EC2D /* NanoAuCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoAuCalTests.swift; sourceTree = "<group>"; };
+		D36D92C01CC8D8CE0063EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36D92C51CC8D8CE0063EC2D /* NanoAuCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanoAuCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36D92C91CC8D8CE0063EC2D /* NanoAuCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanoAuCalUITests.swift; sourceTree = "<group>"; };
+		D36D92CB1CC8D8CE0063EC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36D92D71CC8E6420063EC2D /* About.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = About.pdf; path = NanoAuCal/About.pdf; sourceTree = "<group>"; };
+		D36D92DD1CC8EC870063EC2D /* ConcentrationCalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentrationCalModel.swift; sourceTree = "<group>"; };
+		D36D92DF1CC8ECA00063EC2D /* ConcentrationCalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentrationCalViewController.swift; sourceTree = "<group>"; };
+		D36D92E11CC8EE6A0063EC2D /* CAGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradient.swift; sourceTree = "<group>"; };
+		D36D92E41CC8F0010063EC2D /* CalMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalMenuViewController.swift; sourceTree = "<group>"; };
+		D36D92E61CC8F0310063EC2D /* DiameterCalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiameterCalViewController.swift; sourceTree = "<group>"; };
+		D36D92E81CC8F3400063EC2D /* DiameterCalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiameterCalModel.swift; sourceTree = "<group>"; };
+		D36D92EB1CC8F4EE0063EC2D /* LinksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
+		D36D92ED1CC8F6A40063EC2D /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		D36D92EF1CC8F8070063EC2D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D92F01CC8F8070063EC2D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D36D92F11CC8F80D0063EC2D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D36D92F21CC8F80D0063EC2D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		D36D92F31CC8F8140063EC2D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D92F41CC8F8140063EC2D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D36D92F51CC8F8200063EC2D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D92F61CC8F8200063EC2D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D36D92F71CC8F82A0063EC2D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D92F81CC8F82A0063EC2D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D36D92F91CC8F8310063EC2D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D92FA1CC8F8310063EC2D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D36D92FB1CC8F8380063EC2D /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D92FC1CC8F8380063EC2D /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D36D92FD1CC8F84F0063EC2D /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Main.strings; sourceTree = "<group>"; };
+		D36D92FE1CC8F84F0063EC2D /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D3EA3BD41CC901F500AA6A5B /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36D92A01CC8D8CE0063EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D92B71CC8D8CE0063EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D92C21CC8D8CE0063EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36D929A1CC8D8CE0063EC2D = {
+			isa = PBXGroup;
+			children = (
+				D36D92EA1CC8F4D60063EC2D /* Links */,
+				D36D92E31CC8EFC70063EC2D /* Calculator */,
+				D36D92DC1CC8E70E0063EC2D /* AboutThisApp */,
+				D36D92D91CC8E6B60063EC2D /* Material */,
+				D36D92A51CC8D8CE0063EC2D /* NanoAuCal */,
+				D36D92BD1CC8D8CE0063EC2D /* NanoAuCalTests */,
+				D36D92C81CC8D8CE0063EC2D /* NanoAuCalUITests */,
+				D36D92A41CC8D8CE0063EC2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36D92A41CC8D8CE0063EC2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92A31CC8D8CE0063EC2D /* NanoAuCal.app */,
+				D36D92BA1CC8D8CE0063EC2D /* NanoAuCalTests.xctest */,
+				D36D92C51CC8D8CE0063EC2D /* NanoAuCalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36D92A51CC8D8CE0063EC2D /* NanoAuCal */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92A61CC8D8CE0063EC2D /* AppDelegate.swift */,
+				D36D92A81CC8D8CE0063EC2D /* ViewController.swift */,
+				D36D92AA1CC8D8CE0063EC2D /* Main.storyboard */,
+				D36D92B01CC8D8CE0063EC2D /* Assets.xcassets */,
+				D36D92B21CC8D8CE0063EC2D /* LaunchScreen.storyboard */,
+				D36D92B51CC8D8CE0063EC2D /* Info.plist */,
+				D36D92AD1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodeld */,
+			);
+			path = NanoAuCal;
+			sourceTree = "<group>";
+		};
+		D36D92BD1CC8D8CE0063EC2D /* NanoAuCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92BE1CC8D8CE0063EC2D /* NanoAuCalTests.swift */,
+				D36D92C01CC8D8CE0063EC2D /* Info.plist */,
+			);
+			path = NanoAuCalTests;
+			sourceTree = "<group>";
+		};
+		D36D92C81CC8D8CE0063EC2D /* NanoAuCalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92C91CC8D8CE0063EC2D /* NanoAuCalUITests.swift */,
+				D36D92CB1CC8D8CE0063EC2D /* Info.plist */,
+			);
+			path = NanoAuCalUITests;
+			sourceTree = "<group>";
+		};
+		D36D92D91CC8E6B60063EC2D /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA3BD41CC901F500AA6A5B /* splash.png */,
+				D36D92D71CC8E6420063EC2D /* About.pdf */,
+				D36D92E11CC8EE6A0063EC2D /* CAGradient.swift */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		D36D92DA1CC8E6DD0063EC2D /* DiameterCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92E61CC8F0310063EC2D /* DiameterCalViewController.swift */,
+				D36D92E81CC8F3400063EC2D /* DiameterCalModel.swift */,
+			);
+			name = DiameterCalculation;
+			sourceTree = "<group>";
+		};
+		D36D92DB1CC8E6E90063EC2D /* ConcentrationCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92DD1CC8EC870063EC2D /* ConcentrationCalModel.swift */,
+				D36D92DF1CC8ECA00063EC2D /* ConcentrationCalViewController.swift */,
+			);
+			name = ConcentrationCalculation;
+			sourceTree = "<group>";
+		};
+		D36D92DC1CC8E70E0063EC2D /* AboutThisApp */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92ED1CC8F6A40063EC2D /* AboutViewController.swift */,
+			);
+			name = AboutThisApp;
+			sourceTree = "<group>";
+		};
+		D36D92E31CC8EFC70063EC2D /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92DB1CC8E6E90063EC2D /* ConcentrationCalculation */,
+				D36D92DA1CC8E6DD0063EC2D /* DiameterCalculation */,
+				D36D92E41CC8F0010063EC2D /* CalMenuViewController.swift */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		D36D92EA1CC8F4D60063EC2D /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				D36D92EB1CC8F4EE0063EC2D /* LinksViewController.swift */,
+			);
+			name = Links;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36D92A21CC8D8CE0063EC2D /* NanoAuCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D92CE1CC8D8CE0063EC2D /* Build configuration list for PBXNativeTarget "NanoAuCal" */;
+			buildPhases = (
+				D36D929F1CC8D8CE0063EC2D /* Sources */,
+				D36D92A01CC8D8CE0063EC2D /* Frameworks */,
+				D36D92A11CC8D8CE0063EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NanoAuCal;
+			productName = NanoAuCal;
+			productReference = D36D92A31CC8D8CE0063EC2D /* NanoAuCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D36D92B91CC8D8CE0063EC2D /* NanoAuCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D92D11CC8D8CE0063EC2D /* Build configuration list for PBXNativeTarget "NanoAuCalTests" */;
+			buildPhases = (
+				D36D92B61CC8D8CE0063EC2D /* Sources */,
+				D36D92B71CC8D8CE0063EC2D /* Frameworks */,
+				D36D92B81CC8D8CE0063EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D92BC1CC8D8CE0063EC2D /* PBXTargetDependency */,
+			);
+			name = NanoAuCalTests;
+			productName = NanoAuCalTests;
+			productReference = D36D92BA1CC8D8CE0063EC2D /* NanoAuCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D36D92C41CC8D8CE0063EC2D /* NanoAuCalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D36D92D41CC8D8CE0063EC2D /* Build configuration list for PBXNativeTarget "NanoAuCalUITests" */;
+			buildPhases = (
+				D36D92C11CC8D8CE0063EC2D /* Sources */,
+				D36D92C21CC8D8CE0063EC2D /* Frameworks */,
+				D36D92C31CC8D8CE0063EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D36D92C71CC8D8CE0063EC2D /* PBXTargetDependency */,
+			);
+			name = NanoAuCalUITests;
+			productName = NanoAuCalUITests;
+			productReference = D36D92C51CC8D8CE0063EC2D /* NanoAuCalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36D929B1CC8D8CE0063EC2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = UniversityCollegeLondon;
+				TargetAttributes = {
+					D36D92A21CC8D8CE0063EC2D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RY85DF9LUQ;
+					};
+					D36D92B91CC8D8CE0063EC2D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RY85DF9LUQ;
+						TestTargetID = D36D92A21CC8D8CE0063EC2D;
+					};
+					D36D92C41CC8D8CE0063EC2D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RY85DF9LUQ;
+						TestTargetID = D36D92A21CC8D8CE0063EC2D;
+					};
+				};
+			};
+			buildConfigurationList = D36D929E1CC8D8CE0063EC2D /* Build configuration list for PBXProject "NanoAuCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36D929A1CC8D8CE0063EC2D;
+			productRefGroup = D36D92A41CC8D8CE0063EC2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36D92A21CC8D8CE0063EC2D /* NanoAuCal */,
+				D36D92B91CC8D8CE0063EC2D /* NanoAuCalTests */,
+				D36D92C41CC8D8CE0063EC2D /* NanoAuCalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36D92A11CC8D8CE0063EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EA3BD51CC901F500AA6A5B /* splash.png in Resources */,
+				D36D92D81CC8E6420063EC2D /* About.pdf in Resources */,
+				D36D92B41CC8D8CE0063EC2D /* LaunchScreen.storyboard in Resources */,
+				D36D92B11CC8D8CE0063EC2D /* Assets.xcassets in Resources */,
+				D36D92AC1CC8D8CE0063EC2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D92B81CC8D8CE0063EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D92C31CC8D8CE0063EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36D929F1CC8D8CE0063EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D92A91CC8D8CE0063EC2D /* ViewController.swift in Sources */,
+				D36D92E21CC8EE6A0063EC2D /* CAGradient.swift in Sources */,
+				D36D92EE1CC8F6A40063EC2D /* AboutViewController.swift in Sources */,
+				D36D92E51CC8F0010063EC2D /* CalMenuViewController.swift in Sources */,
+				D36D92E91CC8F3400063EC2D /* DiameterCalModel.swift in Sources */,
+				D36D92E01CC8ECA00063EC2D /* ConcentrationCalViewController.swift in Sources */,
+				D36D92E71CC8F0310063EC2D /* DiameterCalViewController.swift in Sources */,
+				D36D92AF1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodeld in Sources */,
+				D36D92DE1CC8EC870063EC2D /* ConcentrationCalModel.swift in Sources */,
+				D36D92EC1CC8F4EE0063EC2D /* LinksViewController.swift in Sources */,
+				D36D92A71CC8D8CE0063EC2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D92B61CC8D8CE0063EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D92BF1CC8D8CE0063EC2D /* NanoAuCalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36D92C11CC8D8CE0063EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36D92CA1CC8D8CE0063EC2D /* NanoAuCalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D36D92BC1CC8D8CE0063EC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D92A21CC8D8CE0063EC2D /* NanoAuCal */;
+			targetProxy = D36D92BB1CC8D8CE0063EC2D /* PBXContainerItemProxy */;
+		};
+		D36D92C71CC8D8CE0063EC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D36D92A21CC8D8CE0063EC2D /* NanoAuCal */;
+			targetProxy = D36D92C61CC8D8CE0063EC2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D36D92AA1CC8D8CE0063EC2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D92AB1CC8D8CE0063EC2D /* Base */,
+				D36D92EF1CC8F8070063EC2D /* fr */,
+				D36D92F11CC8F80D0063EC2D /* zh-Hans */,
+				D36D92F31CC8F8140063EC2D /* es */,
+				D36D92F51CC8F8200063EC2D /* it */,
+				D36D92F71CC8F82A0063EC2D /* ru */,
+				D36D92F91CC8F8310063EC2D /* ar */,
+				D36D92FB1CC8F8380063EC2D /* vi */,
+				D36D92FD1CC8F84F0063EC2D /* el */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36D92B21CC8D8CE0063EC2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36D92B31CC8D8CE0063EC2D /* Base */,
+				D36D92F01CC8F8070063EC2D /* fr */,
+				D36D92F21CC8F80D0063EC2D /* zh-Hans */,
+				D36D92F41CC8F8140063EC2D /* es */,
+				D36D92F61CC8F8200063EC2D /* it */,
+				D36D92F81CC8F82A0063EC2D /* ru */,
+				D36D92FA1CC8F8310063EC2D /* ar */,
+				D36D92FC1CC8F8380063EC2D /* vi */,
+				D36D92FE1CC8F84F0063EC2D /* el */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D36D92CC1CC8D8CE0063EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D36D92CD1CC8D8CE0063EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D36D92CF1CC8D8CE0063EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NanoAuCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universitycollegelondon.NanoAuCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D36D92D01CC8D8CE0063EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NanoAuCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universitycollegelondon.NanoAuCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D36D92D21CC8D8CE0063EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NanoAuCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universitycollegelondon.NanoAuCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoAuCal.app/NanoAuCal";
+			};
+			name = Debug;
+		};
+		D36D92D31CC8D8CE0063EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NanoAuCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universitycollegelondon.NanoAuCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NanoAuCal.app/NanoAuCal";
+			};
+			name = Release;
+		};
+		D36D92D51CC8D8CE0063EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NanoAuCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universitycollegelondon.NanoAuCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NanoAuCal;
+			};
+			name = Debug;
+		};
+		D36D92D61CC8D8CE0063EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NanoAuCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.universitycollegelondon.NanoAuCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NanoAuCal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36D929E1CC8D8CE0063EC2D /* Build configuration list for PBXProject "NanoAuCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D92CC1CC8D8CE0063EC2D /* Debug */,
+				D36D92CD1CC8D8CE0063EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D92CE1CC8D8CE0063EC2D /* Build configuration list for PBXNativeTarget "NanoAuCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D92CF1CC8D8CE0063EC2D /* Debug */,
+				D36D92D01CC8D8CE0063EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D92D11CC8D8CE0063EC2D /* Build configuration list for PBXNativeTarget "NanoAuCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D92D21CC8D8CE0063EC2D /* Debug */,
+				D36D92D31CC8D8CE0063EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D36D92D41CC8D8CE0063EC2D /* Build configuration list for PBXNativeTarget "NanoAuCalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D92D51CC8D8CE0063EC2D /* Debug */,
+				D36D92D61CC8D8CE0063EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D36D92AD1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D36D92AE1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodel */,
+			);
+			currentVersion = D36D92AE1CC8D8CE0063EC2D /* NanoAuCal.xcdatamodel */;
+			path = NanoAuCal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D36D929B1CC8D8CE0063EC2D /* Project object */;
+}

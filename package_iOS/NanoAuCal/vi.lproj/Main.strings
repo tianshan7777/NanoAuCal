@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "Please enter the surface plasmon resonance peak of the gold nanoparticle spectrum: "; ObjectID = "1h7-h5-9i7"; */
+"1h7-h5-9i7.text" = "Hãy nhập bước sóng ứng với cộng hưởng plasma bề mặt của HNV: ";
+
+/* Class = "UIButton"; normalTitle = "Calculate Again"; ObjectID = "2V1-pv-nnj"; */
+"2V1-pv-nnj.normalTitle" = "Lặp lại phép tính";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "5Sc-B8-yG0"; */
+"5Sc-B8-yG0.normalTitle" = "tính toán";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "9wE-vt-g2Y"; */
+"9wE-vt-g2Y.normalTitle" = "tính toán";
+
+/* Class = "UITabBarItem"; title = "Supporting Info"; ObjectID = "Aqm-Zo-l9q"; */
+"Aqm-Zo-l9q.title" = "Thêm Thông tin";
+
+/* Class = "UINavigationItem"; title = "Diameter"; ObjectID = "CfB-wA-IwT"; */
+"CfB-wA-IwT.title" = "Đường kính";
+
+/* Class = "UINavigationItem"; title = "Links"; ObjectID = "Fg8-ib-KEm"; */
+"Fg8-ib-KEm.title" = "Thêm Thông tin";
+
+/* Class = "UILabel"; text = "Please enter the optical density at 450 nm of UV-visible spectrum of GNPs:"; ObjectID = "GmP-tD-gWC"; */
+"GmP-tD-gWC.text" = "Hãy nhập mật độ quang tại 450 nm thu được từ quang phổ UV-Vis của HNV";
+
+/* Class = "UIButton"; normalTitle = "Calculate Again"; ObjectID = "H1H-aD-5YH"; */
+"H1H-aD-5YH.normalTitle" = "Lặp lại phép tính";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "Keu-K6-lVc"; */
+"Keu-K6-lVc.title" = "Giới thiệu ứng dụng";
+
+/* Class = "UIButton"; normalTitle = "Link to Professor Nguyen \nT.K. Thanh's web page"; ObjectID = "L72-KV-MOu"; */
+"L72-KV-MOu.normalTitle" = "Kết nối đến webpage của Giáo\n sư Nguyễn Thị Kim Thanh";
+
+/* Class = "UILabel"; text = "Please enter the diameter of GNPs: "; ObjectID = "NV4-uF-oMy"; */
+"NV4-uF-oMy.text" = "Hãy nhập đường kính của HNV:";
+
+/* Class = "UITabBarItem"; title = "Calculator"; ObjectID = "Ndk-Uf-qIJ"; */
+"Ndk-Uf-qIJ.title" = "Phương pháp tính";
+
+/* Class = "UINavigationItem"; title = "Calculator"; ObjectID = "Ocj-Ff-X9G"; */
+"Ocj-Ff-X9G.title" = "Phương pháp tính";
+
+/* Class = "UILabel"; text = "Note: the value should be greater than 512 nm"; ObjectID = "RQf-r3-U6z"; */
+"RQf-r3-U6z.text" = "Lưu ý: Giá trị phải lớn hơn 512 nm";
+
+/* Class = "UIViewController"; title = "Diameter"; ObjectID = "U3k-3U-ZSF"; */
+"U3k-3U-ZSF.title" = "Đường kính";
+
+/* Class = "UIButton"; normalTitle = "Calculate Diameter of Gold \nNano Partiles(GNPs)(nm)"; ObjectID = "XKq-XP-weQ"; */
+"XKq-XP-weQ.normalTitle" = "Tính đường kính hạt nano vàng \n(HNV) (nm)";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "Y4A-5A-J9C"; */
+"Y4A-5A-J9C.title" = "Giới thiệu ứng dụng";
+
+/* Class = "UINavigationItem"; title = "Concentration"; ObjectID = "eRU-qO-P3j"; */
+"eRU-qO-P3j.title" = "Sự tập trung";
+
+/* Class = "UILabel"; text = "Note: the diameter should be between 2 nm and 100 nm"; ObjectID = "fHc-rY-2hm"; */
+"fHc-rY-2hm.text" = "Lưu ý: đường kính hạt nên nằm giữa 2 nm và 100 nm";
+
+/* Class = "UIButton"; normalTitle = "Calculate Molar Particle\nConcentration(nM)"; ObjectID = "fQ8-EE-ivS"; */
+"fQ8-EE-ivS.normalTitle" = "Tính nồng độ hạt (nM)";
+
+/* Class = "UILabel"; text = "For a more accurate result enter the ratio of the absorbance of GNPs at the surface plasma resonance peak to the absorbance at 450 nm:"; ObjectID = "g1X-cR-5Ef"; */
+"g1X-cR-5Ef.text" = "Để kết quả được chính xác hơn, hãy nhập tỷ lệ của độ hấp thu cua HNV tại cực đại của cộng hưởng plasma với độ hấp thu tại 450 nm:";
+
+/* Class = "UIButton"; normalTitle = "Related Papers"; ObjectID = "lxr-OR-Dub"; */
+"lxr-OR-Dub.normalTitle" = "giấy";
+
+/* Class = "UIButton"; normalTitle = "Supporting Information "; ObjectID = "toO-mh-Bt2"; */
+"toO-mh-Bt2.normalTitle" = "Thêm Thông tin";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "vb4-Ne-Fss"; */
+"vb4-Ne-Fss.normalTitle" = "tính toán";

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">Tính nồng độ hạt (nM/L)</string>
+    <string name="diameter_cal">Tính đường kính hạt nano vàng (HNV) (nm)</string>
+    <string name="reference">Thông tin trợ giúp</string>
+    <string name="app_info">Chỉ dẫn</string>
+    <string name="alert_title">Nhập sai dữ liệu</string>
+    //concentration calculate
+    <string name="con_input">Hãy nhập đường kính của HNV:</string>
+    <string name="con_note">Lưu ý: đường kính hạt nên nằm giữa 2 nm và 100 nm</string>
+    <string name="calculate">Tính toán</string>
+    <string name="con_output">Nồng độ mole hạt (nM/L)</string>
+    <string name="con_alert">Xin kiểm tra lại \n1.	Đường kính hạt nằm trong khoảng từ 2-10 nm \n2. Đơn vị của đường kính là nm tính</string>
+    <string name="opticalDensity">Hãy nhập mật độ quang tại 450 nm thu được từ quang phổ UV-Vis của HNV: </string>
+    <string name="mass_cal">Nồng độ khối (mg/ml)</string>
+    <string name="goldCon_cal">Nồng độ  mol (mM)</string>
+    <string name="calAgain">Tính lại</string>
+    //diameter calculate
+    <string name="dia_input">Hãy nhập bước sóng ứng với cộng hưởng plasma bề mặt của HNV:\nLưu ý: Giá trị phải lớn hơn 512 nm</string>
+    <string name="dia_alert">Nhập sai dữ liệu</string>
+    //small diameter calculation
+    <string name="smallDiaCal">Kết quả đường kính nhỏ hơn 35 nm\nXin hãy nhập tỉ lệ hấp thụ của HNV tại cực đại của cộng hưởng plasma bề mặt với độ hấp thu tại 450 nm: </string>
+    //about this App
+    <string name="about">Ứng dụng này được thiết kế bởi giáo sư Nguyễn T.K.Thanh thuộc Đại Học University College London để giúp đỡ các nhà nghiên cứu và những người có nhu cầu sử dụng tính toán nồng độ và kích cỡ của hạt vàng dễ dàng hơn, đơn giản bằng cách thông qua phỏ UV-vis</string>
+    //useful links
+    <string name="personalWeb">Kết nối đến webpage của Giáo sư Nguyễn Thị Kim Thanh</string>
+    <string name="paper">Những bài báo liên quan</string>
+    <string name="link">Thêm thông tin</string>
+</resources>

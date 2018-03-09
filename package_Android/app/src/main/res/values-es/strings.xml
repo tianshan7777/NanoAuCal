@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">Calcular la Molaridad  (nM/L)</string>
+    <string name="diameter_cal">Calculeel diámetro de las nano-partículas de oro en nm (nm)</string>
+    <string name="reference">información de soporte</string>
+    <string name="app_info">Acerca de</string>
+    <string name="alert_title">error de entrada</string>
+    //concentration calculate
+    <string name="con_input">Por favor, introduzca el diámetro de las nano-partículas de oro:</string>
+    <string name="con_note">Nota: el diámetro introducido debe estar entre 2 y 100 nm</string>
+    <string name="calculate">calcule</string>
+    <string name="con_output">La concentración molar:    (nM/L)</string>
+    <string name="con_alert">Por favor, combruebe que: \n1. El diámetro introducido debe estar entre 2 y 100 nm. \n 2.Las unidades del diámetro introducido sean nm.</string>
+    <string name="opticalDensity">Por favor introduca  la densidad óptica a 450 nm del espectro UV-visible de las nano-partículas de oro: </string>
+    <string name="mass_cal">La masa de las nano-partículas de oro: (mg/ml)</string>
+    <string name="goldCon_cal">La concentración molar de oro por litro:  (M)</string>
+    <string name="calAgain">recálculo</string>
+    //diameter calculate
+    <string name="dia_input">Por favor introduzca la resonancia del plasma de superficie del espectro de las nano-partículas de oro \nNota: el valor debe ser mayor de 512 nm</string>
+    <string name="dia_alert">error de entrada</string>
+    //small diameter calculation
+    <string name="smallDiaCal">El diámetro calculado es menor de 35 nm. \nPara obtener un resultado más preciso, por favor introduzca  el ratio entre la absorbancia de nano-partículas de oro en el pico de resonancia de superficie y la absorbancia a 450 nm:</string>
+    //about this App
+    <string name="about">This website is designed by Professor Nguyen T. K. Thanh at University College London to help researchers and users to easily calculate concentration and size of gold nano particles simply based on their UV-VS spectrum.</string>
+    //useful links
+    <string name="personalWeb">Link to Professor Nguyen T. K. Thanh website</string>
+    <string name="paper">Related Papers</string>
+    <string name="link">Supporting information</string>
+</resources>

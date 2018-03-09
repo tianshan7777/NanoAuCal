@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NanoAuCal</string>
+    <string name="concentration_cal">Calcola la Concentrazione Molare per particella (nM/L)</string>
+    <string name="diameter_cal">Calcola il diametro delle Gold Nano Particles(GNPs) (nm)</string>
+    <string name="reference">Informazioni di supporto</string>
+    <string name="app_info">Istruzioni e informazioni</string>
+    <string name="alert_title">Errore di inserimento</string>
+    //concentration calculate
+    <string name="con_input">Per favore inserisci il diametro delle GNP</string>
+    <string name="con_note"> Nota bene: il diametro deve essere compreso tra 2 e 100 nm</string>
+    <string name="calculate">Calcola</string>
+    <string name="con_output">La concentrazione molare per particella   (nM/L)</string>
+    <string name="con_alert">Per favore controlla che:\n1.Il diametro deve essere compreso tra 2 e 100 nm \n 2.L’unità di misura del diametro deve essere in nm</string>
+    <string name="opticalDensity">Per favore inserisci la densità ottica a 450 nm dello spettro UV-Vis delle GNP: </string>
+    <string name="mass_cal">La massa delle GNP: (mg/ml)</string>
+    <string name="goldCon_cal">La concentrazione molare di oro per litro (nM)</string>
+    <string name="calAgain">Calcola di nuovo</string>
+    //diameter calculate
+    <string name="dia_input">Per favore inserisci lo spettro di risonanza plasmonica di superfice delle nanoparticelle d’oro: \nNota bene: il valore deve essere maggiore di 512 nm</string>
+    <string name="dia_alert">Errore di inserimento</string>
+    //small diameter calculation
+    <string name="smallDiaCal">Il diametro calcolato è inferiore a 35 nm \nPer un risultato più accurato inserisci il rapporto tra l’assorbanza delle GNP al picco di risonanza plasmonica e l’assorbanza a 450 nm: </string>
+    //about this App
+    <string name="about"> Questo sito è stato progettato da Professor Nguyen T.K Thanh, University College London, per aiutare ricercatori e utenti a calcolare facilmente concentrazione e dimensione delle nanoparticelle d’oro basandosi semplicemente sul loro spettro UV-Vis</string>
+    //useful links
+    <string name="personalWeb">Collegamento alla pagina web di Prof. Nguyen T. K. Thanh</string>
+    <string name="paper">Articoli correlati</string>
+    <string name="link">Informazioni di supporto</string>
+</resources>
